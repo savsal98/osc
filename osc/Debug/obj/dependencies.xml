@@ -1,0 +1,428 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dependencies>
+   <includePath signature="/I..\..\..\workspace\project\osc\FreeRtos\portable /I..\..\..\workspace\project\osc\cmsis_boot /I..\..\..\workspace\project\osc\cmsis /I..\..\..\workspace\project /I..\..\..\workspace\project\osc\FreeRtos /I..\..\..\workspace\project\osc /I..\..\..\workspace\project\osc\FreeRtos\include /I..\..\..\workspace\project\osc\cmsis_lib\include /I..\..\..\workspace\project\osc\cmsis_lib">
+      <source file="..\..\..\FreeRtos\portable\port.c" lastModified="184f8716d70">
+         <include file="..\..\..\FreeRtos\include\FreeRTOS.h"/>
+         <include file="..\..\..\FreeRtos\include\task.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f30x_syscfg.h" lastModified="18bf15b802a">
+         <include file="..\..\..\cmsis_boot\stm32f30x.h"/>
+      </source>
+      <source file="..\..\..\FreeRtos\include\timers.h" lastModified="184f8716d70">
+         <include file="..\..\..\FreeRtos\include\task.h"/>
+      </source>
+      <source file="..\..\..\FreeRtos\include\stream_buffer.h" lastModified="184f8716d70">
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f30x_rtc.c" lastModified="18bec1b67d6">
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_rtc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f30x_exti.c" lastModified="18baddc3f07">
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_exti.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f30x_iwdg.c" lastModified="18bf7791f75">
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_iwdg.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f30x_rcc.c" lastModified="18baddc2cf4">
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f30x_gpio.c" lastModified="18baddc3350">
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f30x_dac.c" lastModified="18baddc395f">
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_dac.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f30x_rtc.h" lastModified="18bec1b67be">
+         <include file="..\..\..\cmsis_boot\stm32f30x.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f30x_syscfg.c" lastModified="18bf15b8035">
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_syscfg.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f30x_misc.h" lastModified="18baddc5c17">
+         <include file="..\..\..\cmsis_boot\stm32f30x.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f30x_rcc.h" lastModified="18baddc2ceb">
+         <include file="..\..\..\cmsis_boot\stm32f30x.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f30x_dac.h" lastModified="18baddc395d">
+         <include file="..\..\..\cmsis_boot\stm32f30x.h"/>
+      </source>
+      <source file="..\..\..\FreeRtos\include\event_groups.h" lastModified="184f8716d70">
+         <include file="..\..\..\FreeRtos\include\timers.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f30x_adc.c" lastModified="18bec9554bc">
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_adc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f30x_adc.h" lastModified="18bec9554bb">
+         <include file="..\..\..\cmsis_boot\stm32f30x.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f30x_dma.c" lastModified="18bcdf77f2b">
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_dma.h"/>
+      </source>
+      <source file="..\..\..\FreeRtos\portable\portmacro.h" lastModified="184f8716d70">
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f30x_dma.h" lastModified="18bcdf77f29">
+         <include file="..\..\..\cmsis_boot\stm32f30x.h"/>
+      </source>
+      <source file="..\..\..\FreeRtos\include\FreeRTOSConfig.h" lastModified="18bed0ecb7a">
+         <include file="..\..\..\cmsis_boot\stm32f30x.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f30x_temp.c" lastModified="18baddc2d20">
+         <include file="..\..\..\cmsis_boot\stm32f30x.h"/>
+      </source>
+      <source file="..\..\..\FreeRtos\include\projdefs.h" lastModified="184f8716d70">
+      </source>
+      <source file="..\..\..\FreeRtos\include\list.h" lastModified="184f8716d70">
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f30x_exti.h" lastModified="18baddc3efd">
+         <include file="..\..\..\cmsis_boot\stm32f30x.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f30x_gpio.h" lastModified="18baddc3347">
+         <include file="..\..\..\cmsis_boot\stm32f30x.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f30x_iwdg.h" lastModified="18bf7791f74">
+         <include file="..\..\..\cmsis_boot\stm32f30x.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f30x_misc.c" lastModified="18baddc5c21">
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_misc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f30x.h" lastModified="18baddc2d17">
+      </source>
+      <source file="..\..\..\FreeRtos\include\stack_macros.h" lastModified="184f8716d70">
+      </source>
+      <source file="..\..\..\FreeRtos\include\mpu_wrappers.h" lastModified="184f8716d70">
+      </source>
+      <source file="..\..\..\FreeRtos\source\croutine.c" lastModified="184f8716d70">
+         <include file="..\..\..\FreeRtos\include\FreeRTOS.h"/>
+         <include file="..\..\..\FreeRtos\include\task.h"/>
+         <include file="..\..\..\FreeRtos\include\croutine.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\startup\startup_stm32f30x.S" lastModified="18baddc2d05">
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f30x_tim.c" lastModified="18baddc53f1">
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_tim.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f30x_tim.h" lastModified="18baddc53ef">
+         <include file="..\..\..\cmsis_boot\stm32f30x.h"/>
+      </source>
+      <source file="..\..\..\FreeRtos\include\portable.h" lastModified="184f8716d70">
+         <include file="..\..\..\FreeRtos\include\deprecated_definitions.h"/>
+         <include file="..\..\..\FreeRtos\portable\portmacro.h"/>
+         <include file="..\..\..\FreeRtos\include\mpu_wrappers.h"/>
+      </source>
+      <source file="..\..\..\FreeRtos\include\task.h" lastModified="184f8716d70">
+         <include file="..\..\..\FreeRtos\include\list.h"/>
+      </source>
+      <source file="..\..\..\FreeRtos\include\semphr.h" lastModified="184f8716d70">
+         <include file="..\..\..\FreeRtos\include\queue.h"/>
+      </source>
+      <source file="..\..\..\FreeRtos\include\croutine.h" lastModified="184f8716d70">
+         <include file="..\..\..\FreeRtos\include\list.h"/>
+      </source>
+      <source file="..\..\..\FreeRtos\include\queue.h" lastModified="184f8716d70">
+         <include file="..\..\..\FreeRtos\include\task.h"/>
+      </source>
+   </includePath>
+   <includePath signature="/I..\..\..\workspace\project\osc\FreeRtos\portable /I..\..\..\workspace\project\osc\cmsis_boot /I..\..\..\workspace\project\osc\cmsis /I..\..\..\workspace\project /I..\..\..\workspace\project\osc\deps /I..\..\..\workspace\project\osc\FreeRtos /I..\..\..\workspace\project\osc /I..\..\..\workspace\project\osc\deps\inc /I..\..\..\workspace\project\osc\FreeRtos\include /I..\..\..\workspace\project\osc\cmsis_lib\include /I..\..\..\workspace\project\osc\cmsis_lib">
+      <source file="..\..\..\FreeRtos\portable\port.c" lastModified="184f8716d70">
+         <include file="..\..\..\FreeRtos\include\FreeRTOS.h"/>
+         <include file="..\..\..\FreeRtos\include\task.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f30x_syscfg.h" lastModified="18bf15b802a">
+         <include file="..\..\..\cmsis_boot\stm32f30x.h"/>
+      </source>
+      <source file="..\..\..\FreeRtos\include\timers.h" lastModified="184f8716d70">
+         <include file="..\..\..\FreeRtos\include\task.h"/>
+      </source>
+      <source file="..\..\..\FreeRtos\include\stream_buffer.h" lastModified="184f8716d70">
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f30x_rtc.c" lastModified="18bec1b67d6">
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_rtc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_rcc.h"/>
+      </source>
+      <source file="..\..\..\FreeRtos\source\timers.c" lastModified="184f8717158">
+         <include file="..\..\..\FreeRtos\include\FreeRTOS.h"/>
+         <include file="..\..\..\FreeRtos\include\task.h"/>
+         <include file="..\..\..\FreeRtos\include\queue.h"/>
+         <include file="..\..\..\FreeRtos\include\timers.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f30x_exti.c" lastModified="18baddc3f07">
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_exti.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f30x_iwdg.c" lastModified="18bf7791f75">
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_iwdg.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f30x_rcc.c" lastModified="18baddc2cf4">
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f30x_gpio.c" lastModified="18baddc3350">
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f30x_dac.c" lastModified="18baddc395f">
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_dac.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_rcc.h"/>
+      </source>
+      <source file="..\..\..\deps\src\gpio.c" lastModified="18c0196c9ee">
+         <include file="..\..\..\deps\inc\gpio.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f30x_rtc.h" lastModified="18bec1b67be">
+         <include file="..\..\..\cmsis_boot\stm32f30x.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f30x_syscfg.c" lastModified="18bf15b8035">
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_syscfg.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\stm32f30x.h" lastModified="18baddc30f8">
+         <include file="..\..\..\cmsis\core_cm4.h"/>
+         <include file="..\..\..\cmsis_boot\system_stm32f30x.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f30x_misc.h" lastModified="18baddc5c17">
+         <include file="..\..\..\cmsis_boot\stm32f30x.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f30x_rcc.h" lastModified="18baddc2ceb">
+         <include file="..\..\..\cmsis_boot\stm32f30x.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f30x_dac.h" lastModified="18baddc395d">
+         <include file="..\..\..\cmsis_boot\stm32f30x.h"/>
+      </source>
+      <source file="..\..\..\FreeRtos\include\event_groups.h" lastModified="184f8716d70">
+         <include file="..\..\..\FreeRtos\include\timers.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f30x_adc.c" lastModified="18bec9554bc">
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_adc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f30x_adc.h" lastModified="18bec9554bb">
+         <include file="..\..\..\cmsis_boot\stm32f30x.h"/>
+      </source>
+      <source file="..\..\..\FreeRtos\source\queue.c" lastModified="184f8717540">
+         <include file="..\..\..\FreeRtos\include\FreeRTOS.h"/>
+         <include file="..\..\..\FreeRtos\include\task.h"/>
+         <include file="..\..\..\FreeRtos\include\queue.h"/>
+         <include file="..\..\..\FreeRtos\include\croutine.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f30x_dma.c" lastModified="18bcdf77f2b">
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_dma.h"/>
+      </source>
+      <source file="..\..\..\deps\inc\gpio.h" lastModified="18c01df9ebc">
+         <include file="..\..\..\cmsis_boot\stm32f30x.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_rcc.h"/>
+      </source>
+      <source file="..\..\..\FreeRtos\portable\portmacro.h" lastModified="184f8716d70">
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f30x_dma.h" lastModified="18bcdf77f29">
+         <include file="..\..\..\cmsis_boot\stm32f30x.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cmFunc.h" lastModified="18baddc350d">
+      </source>
+      <source file="..\..\..\cmsis\core_cm4_simd.h" lastModified="18baddc3504">
+      </source>
+      <source file="..\..\..\FreeRtos\source\tasks.c" lastModified="184f87180f8">
+         <include file="..\..\..\FreeRtos\include\FreeRTOS.h"/>
+         <include file="..\..\..\FreeRtos\include\task.h"/>
+         <include file="..\..\..\FreeRtos\include\timers.h"/>
+         <include file="..\..\..\FreeRtos\include\stack_macros.h"/>
+      </source>
+      <source file="..\..\..\deps\src\dac.c" lastModified="18c019d27bf">
+         <include file="..\..\..\deps\inc\dac.h"/>
+      </source>
+      <source file="..\..\..\FreeRtos\include\FreeRTOSConfig.h" lastModified="18bed0ecb7a">
+         <include file="..\..\..\cmsis_boot\stm32f30x.h"/>
+      </source>
+      <source file="..\..\..\deps\src\adc.c" lastModified="18c01ce4a60">
+         <include file="..\..\..\deps\inc\adc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f30x_temp.c" lastModified="18baddc2d20">
+         <include file="..\..\..\cmsis_boot\stm32f30x.h"/>
+      </source>
+      <source file="..\..\..\deps\inc\clock.h" lastModified="18c01cfb792">
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_rcc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_iwdg.h"/>
+      </source>
+      <source file="..\..\..\FreeRtos\source\list.c" lastModified="184f8717158">
+         <include file="..\..\..\FreeRtos\include\FreeRTOS.h"/>
+         <include file="..\..\..\FreeRtos\include\list.h"/>
+      </source>
+      <source file="..\..\..\FreeRtos\include\deprecated_definitions.h" lastModified="184f8723890">
+         <include file="..\..\..\FreeRtos\portable\portmacro.h"/>
+         <include file="..\..\..\FreeRtos\portable\portmacro.h"/>
+         <include file="..\..\..\FreeRtos\portable\portmacro.h"/>
+         <include file="..\..\..\FreeRtos\portable\portmacro.h"/>
+         <include file="..\..\..\FreeRtos\portable\portmacro.h"/>
+      </source>
+      <source file="..\..\..\deps\src\dma.c" lastModified="18c01e9d167">
+         <include file="..\..\..\deps\inc\dma.h"/>
+      </source>
+      <source file="..\..\..\FreeRtos\include\projdefs.h" lastModified="184f8716d70">
+      </source>
+      <source file="..\..\..\FreeRtos\include\list.h" lastModified="184f8716d70">
+      </source>
+      <source file="..\..\..\main.c" lastModified="18c022255de">
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_misc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_tim.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_exti.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_syscfg.h"/>
+         <include file="..\..\..\deps\inc\gpio.h"/>
+         <include file="..\..\..\deps\inc\dac.h"/>
+         <include file="..\..\..\deps\inc\adc.h"/>
+         <include file="..\..\..\deps\inc\dma.h"/>
+         <include file="..\..\..\FreeRtos\include\FreeRTOSConfig.h"/>
+         <include file="..\..\..\FreeRtos\include\FreeRTOS.h"/>
+         <include file="..\..\..\FreeRtos\include\task.h"/>
+         <include file="..\..\..\FreeRtos\include\timers.h"/>
+         <include file="..\..\..\FreeRtos\include\croutine.h"/>
+         <include file="..\..\..\FreeRtos\include\queue.h"/>
+         <include file="..\..\..\FreeRtos\include\semphr.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cmInstr.h" lastModified="18baddc3515">
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f30x_exti.h" lastModified="18baddc3efd">
+         <include file="..\..\..\cmsis_boot\stm32f30x.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f30x_gpio.h" lastModified="18baddc3347">
+         <include file="..\..\..\cmsis_boot\stm32f30x.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f30x_iwdg.h" lastModified="18bf7791f74">
+         <include file="..\..\..\cmsis_boot\stm32f30x.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f30x_misc.c" lastModified="18baddc5c21">
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_misc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f30x.h" lastModified="18baddc2d17">
+      </source>
+      <source file="..\..\..\FreeRtos\source\heap_2.c" lastModified="184f8717540">
+         <include file="..\..\..\FreeRtos\include\FreeRTOS.h"/>
+         <include file="..\..\..\FreeRtos\include\task.h"/>
+      </source>
+      <source file="..\..\..\FreeRtos\include\FreeRTOS.h" lastModified="184f8717928">
+         <include file="..\..\..\FreeRtos\include\FreeRTOSConfig.h"/>
+         <include file="..\..\..\FreeRtos\include\projdefs.h"/>
+         <include file="..\..\..\FreeRtos\include\portable.h"/>
+      </source>
+      <source file="..\..\..\deps\src\clock.c" lastModified="18c0221fc09">
+         <include file="..\..\..\deps\inc\clock.h"/>
+      </source>
+      <source file="..\..\..\deps\inc\dac.h" lastModified="18c01a0c1f4">
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_dac.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_rcc.h"/>
+      </source>
+      <source file="..\..\..\FreeRtos\source\event_groups.c" lastModified="184f8717158">
+         <include file="..\..\..\FreeRtos\include\FreeRTOS.h"/>
+         <include file="..\..\..\FreeRtos\include\task.h"/>
+         <include file="..\..\..\FreeRtos\include\timers.h"/>
+         <include file="..\..\..\FreeRtos\include\event_groups.h"/>
+      </source>
+      <source file="..\..\..\FreeRtos\include\stack_macros.h" lastModified="184f8716d70">
+      </source>
+      <source file="..\..\..\FreeRtos\include\mpu_wrappers.h" lastModified="184f8716d70">
+      </source>
+      <source file="..\..\..\deps\inc\adc.h" lastModified="18c01ad49e5">
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_rcc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_adc.h"/>
+      </source>
+      <source file="..\..\..\FreeRtos\source\croutine.c" lastModified="184f8716d70">
+         <include file="..\..\..\FreeRtos\include\FreeRTOS.h"/>
+         <include file="..\..\..\FreeRtos\include\task.h"/>
+         <include file="..\..\..\FreeRtos\include\croutine.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\startup\startup_stm32f30x.S" lastModified="18baddc2d05">
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f30x_tim.c" lastModified="18baddc53f1">
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_tim.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_rcc.h"/>
+      </source>
+      <source file="..\..\..\FreeRtos\source\stream_buffer.c" lastModified="184f8717540">
+         <include file="..\..\..\FreeRtos\include\FreeRTOS.h"/>
+         <include file="..\..\..\FreeRtos\include\task.h"/>
+         <include file="..\..\..\FreeRtos\include\stream_buffer.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f30x_tim.h" lastModified="18baddc53ef">
+         <include file="..\..\..\cmsis_boot\stm32f30x.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cm4.h" lastModified="18baddc3115">
+         <include file="..\..\..\cmsis\core_cmInstr.h"/>
+         <include file="..\..\..\cmsis\core_cmFunc.h"/>
+         <include file="..\..\..\cmsis\core_cm4_simd.h"/>
+      </source>
+      <source file="..\..\..\FreeRtos\include\portable.h" lastModified="184f8716d70">
+         <include file="..\..\..\FreeRtos\include\deprecated_definitions.h"/>
+         <include file="..\..\..\FreeRtos\portable\portmacro.h"/>
+         <include file="..\..\..\FreeRtos\include\mpu_wrappers.h"/>
+      </source>
+      <source file="..\..\..\FreeRtos\include\task.h" lastModified="184f8716d70">
+         <include file="..\..\..\FreeRtos\include\list.h"/>
+      </source>
+      <source file="..\..\..\deps\inc\dma.h" lastModified="18c01e99398">
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_dma.h"/>
+         <include file="..\..\..\deps\inc\adc.h"/>
+      </source>
+      <source file="..\..\..\FreeRtos\include\semphr.h" lastModified="184f8716d70">
+         <include file="..\..\..\FreeRtos\include\queue.h"/>
+      </source>
+      <source file="..\..\..\FreeRtos\include\croutine.h" lastModified="184f8716d70">
+         <include file="..\..\..\FreeRtos\include\list.h"/>
+      </source>
+      <source file="..\..\..\FreeRtos\include\queue.h" lastModified="184f8716d70">
+         <include file="..\..\..\FreeRtos\include\task.h"/>
+      </source>
+   </includePath>
+   <includePath signature="/I..\..\..\workspace\project\osc\cmsis_boot /I..\..\..\workspace\project\osc\cmsis /I..\..\..\workspace\project /I..\..\..\workspace\project\osc /I..\..\..\workspace\project\osc\cmsis_lib\include /I..\..\..\workspace\project\osc\cmsis_lib">
+      <source file="..\..\..\cmsis_lib\source\stm32f30x_exti.c" lastModified="18baddc3f07">
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_exti.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f30x_rcc.c" lastModified="18baddc2cf4">
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f30x_gpio.c" lastModified="18baddc3350">
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f30x_dac.c" lastModified="18baddc395f">
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_dac.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f30x_misc.h" lastModified="18baddc5c17">
+         <include file="..\..\..\cmsis_boot\stm32f30x.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f30x_rcc.h" lastModified="18baddc2ceb">
+         <include file="..\..\..\cmsis_boot\stm32f30x.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f30x_dac.h" lastModified="18baddc395d">
+         <include file="..\..\..\cmsis_boot\stm32f30x.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f30x_dma.c" lastModified="18bcdf77f2b">
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_dma.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f30x_dma.h" lastModified="18bcdf77f29">
+         <include file="..\..\..\cmsis_boot\stm32f30x.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f30x_temp.c" lastModified="18baddc2d20">
+         <include file="..\..\..\cmsis_boot\stm32f30x.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f30x_exti.h" lastModified="18baddc3efd">
+         <include file="..\..\..\cmsis_boot\stm32f30x.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f30x_gpio.h" lastModified="18baddc3347">
+         <include file="..\..\..\cmsis_boot\stm32f30x.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f30x_misc.c" lastModified="18baddc5c21">
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_misc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f30x.h" lastModified="18baddc2d17">
+      </source>
+      <source file="..\..\..\cmsis_boot\startup\startup_stm32f30x.S" lastModified="18baddc2d05">
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f30x_tim.c" lastModified="18baddc53f1">
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_tim.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f30x_tim.h" lastModified="18baddc53ef">
+         <include file="..\..\..\cmsis_boot\stm32f30x.h"/>
+      </source>
+   </includePath>
+</dependencies>
